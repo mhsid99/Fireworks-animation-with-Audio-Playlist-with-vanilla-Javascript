@@ -1,0 +1,56 @@
+.rocket
+{
+    position:fixed; 
+    background-image:url('star.png'); 
+    background-size:contain;
+}
+
+body
+{
+    background-image: url('Grim Reaper-01.jpg');
+    background-size: cover;
+    z-index: -1;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 20%;
+}
+
+
+.particle
+{
+    position:fixed; 
+    height: 2px;
+    width: 2px;
+}
+
+#song_list
+{
+    position: absolute;
+    color: whitesmoke;
+    border: 0.5px solid whitesmoke;
+    border-radius: 10px;
+    overflow-y: scroll ;
+    height: 100px;
+    
+}
+li
+{
+    padding: 7px;
+    font-size: 15px;
+    
+}
+
+li:hover
+{
+    cursor: pointer;
+}
+
+h4
+{
+    color: whitesmoke;
+}
+
+#curr_song,#current_song
+{
+    color: whitesmoke;
+}
